@@ -1,0 +1,34 @@
+.quote-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1325px;
+    /* 可根据需要调整最大宽度 */
+    margin: 0 auto;
+    /* 水平居中 */
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #000;
+}
+
+.quote {
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+    /* 移除默认的margin */
+    text-align: center;
+    cursor: pointer;
+    /* 鼠标悬停时变为手型 */
+}
+
+.quote a {
+    color: #333;
+    text-decoration: none;
+    /* 移除下划线 */
+}
+
+.quote:hover {
+    color: #007BFF;
+    /* 鼠标悬停时变色 */
+}
