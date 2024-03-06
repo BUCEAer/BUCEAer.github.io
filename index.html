@@ -9,13 +9,13 @@
     <link rel="stylesheet" href="toutiao.css">
     <link rel="stylesheet" type="text/css" href="carousel.css">
 
-    <title>课题待定</title>
+    <title>让爱来，让碍走————温暖相伴，助力无障碍人生</title>
     <style>
         main {
             display: flex;
             justify-content: center;
             /* align-items: center; */
-            height: 75vh;
+            height: 55vh;
             margin: 0;
             box-sizing: border-box;
             padding: 20px;
@@ -39,7 +39,7 @@
             justify-content: space-between;
             align-items: center;
             width: 80vw;
-            height: 60vh;
+            height: 45vh;
             /* 或者任何你想要的宽度 */
             border: 1px solid #000;
             /* 为了可视化边界 */
@@ -55,15 +55,42 @@
             /* 使小Divs平均分配剩余空间 */
             border: 1px solid black;
             /* 为了可视化边界 */
-            padding: 10px;
-            text-align: center;
+            padding-left: 5px;
+            text-align: left;
             /* 使文本在小Div中居中 */
             width: 39vw;
-            height: 55vh;
-            margin-left: 10px;
-            margin-right: 10px;
-            font-size: xx-large;
+            height: 43vh;
+            margin-left: 5px;
+            margin-right: 5px;
+            font-size: x-large;
+            overflow: hidden;
+            /* 隐藏超出容器的内容 */
+            white-space: nowrap;
+            /* 禁止文本换行 */
+            text-overflow: ellipsis;
+            /* 使用省略号表示被截断的文本 */
+            /* line-height: 2; */
+            /* 增加行高，这将是字体大小的1.5倍 */
 
+        }
+
+        .small-div li {
+            margin-bottom: 10px;
+            /* 增加底部的外边距 */
+        }
+
+        .small-div li a {
+            color: purple;
+
+        }
+
+        .small-div li a:hover {
+            color: red;
+        }
+
+        .small-div li a:link {
+            color: purple;
+            text-decoration: none;
         }
 
         /* .small-img {
@@ -77,17 +104,16 @@
     <header>
         <div class="headertop">
             <div class="header-container">
-                <div class="left-text"><a href="">免责声明</a> | <a href="">隐私安全</a></div>
-                <div class="right-text"><a href="">帮助信息</a> | <a href="">加入收藏</a></div>
+                <div class="left-text"><a href="">English</a> | <a href="">服务热线</a></div>
+                <div class="right-text"><a href="">关怀模式</a> | <a href="">开启辅助工具</a></div>
             </div>
         </div>
         <div class="headerimg">
 
-            <!-- <img src="https://gd-hbimg.huaban.com/03af72a47196bdb7f5a88c182eee67343e54fc391c53b-l0se7T_fw658" alt=""
-                style=" width: 120px; height: 120px;"> -->
+            <img src="logo.jpg" alt="" style=" width: 80px; height: 80px; margin-left: 5px;">
 
 
-            <h1>课题名称xxxxxxxxxx</h1>
+            <h2 style="opacity: 1;">让爱来，让碍走————温暖相伴，助力无障碍人生</h2>
         </div>
 
         <nav>
@@ -96,53 +122,74 @@
 
                     <li><a href="index.html">首页</a>
                         <ul class="submenu">
-                            <li><a href="#">欢迎访问【针对特殊人群的出行关怀之智能路口方案】网站</a></li>
+                            <li><a href="#">欢迎访问【让爱来，让碍走————温暖相伴，助力无障碍人生】网站</a></li>
                         </ul>
                     </li>
-                    <li><a href="b-jieshao.html">项目介绍</a>
+                    <li><a href="">无障通行</a>
                         <ul class="submenu">
-                            <li><a href="#">子块 4</a></li>
-                            <li><a href="#">子块 5</a></li>
-                            <li><a href="#">子块 6</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="">专属方案</a>
-                        <ul class="submenu">
-                            <li><a href="a-shijue.html">视觉障碍者</a></li>
-                            <li><a href="a-tingjue.html">听觉障碍者</a></li>
-                            <li><a href="a-xingdong.html">行动不便者</a></li>
-                        </ul>
-                    </li>
-                    <ul class="submenu">
-                        <li><a href="#">点击上方跳转</a></li>
-                    </ul>
-                    </li>
-                    <li><a href="b-wenchuang.html">文创产品</a>
-                        <ul class="submenu">
-                            <li><a href="#">子块 4</a></li>
-                            <li><a href="#">子块 5</a></li>
-                            <li><a href="#">子块 6</a></li>
+                            <li><a href="b-tiaozhuan.html">定制出行方案</a></li>
+                            <li><a href="">专业驾驶服务</a></li>
+                            <li><a href="">实时定位追踪</a></li>
+
                         </ul>
                     </li>
 
-                    <li><a href="#">就业支持</a>
+
+
+                    <li><a href="">全面看护</a>
                         <ul class="submenu">
-                            <li><a href="#">子块 4</a></li>
-                            <li><a href="#">子块 5</a></li>
-                            <li><a href="#">子块 6</a></li>
+                            <li><a href="#">全天候照护</a></li>
+                            <li><a href="b-kanhu.html">个性化护理计划</a></li>
+                            <li><a href="#">智能监测与预警</a></li>
+
+
+
+
+
                         </ul>
                     </li>
-                    <li><a href="#">智能地图</a>
+                    <li><a href="#">就业协助</a>
                         <ul class="submenu">
-                            <li><a href="https://map.beijing.gov.cn/">map</a></li>
-                            <!-- <li><a href="#">子块 5</a></li>
-                            <li><a href="#">子块 6</a></li> -->
+                            <li><a href="#">职业评估与指导</a></li>
+                            <li><a href="#">技能培训与提升</a></li>
+                            <li><a href="#">就业推荐与跟踪</a></li>
+
+
                         </ul>
                     </li>
-                    <li><a href="n-sos.html">急救帮扶</a>
+                    <li><a href="">医疗援助</a>
                         <ul class="submenu">
-                            <li><a href=""></a></li>
-                            <li><a href="#"></a></li>
+                            <li><a href="#">优先预约挂号</a></li>
+                            <li><a href="#">专业陪同导诊</a></li>
+                            <li><a href="#">健康管理跟踪</a></li>
+
+
+                        </ul>
+                    </li>
+
+
+                    <li><a href="">应急救助</a>
+                        <ul class="submenu">
+                            <li><a href="">快速响应机制</a></li>
+                            <li><a href="#">专业急救团队</a></li>
+                            <li><a href="#">急救培训与指导</a></li>
+
+
+                        </ul>
+                    </li>
+                    <li><a href="#">无障导航</a>
+                        <ul class="submenu">
+                            <!-- <li><a href="https://map.beijing.gov.cn/">map</a></li> -->
+
+                            <li><a href="#">无障碍设施查询</a></li>
+                            <li><a href="#">语音导航与指令</a></li>
+                            <li><a href="#">实时路况与路线优化</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="b-wenchuang.html">文创产品</a>
+                        <ul class="submenu">
+                            <li><a href="#">智能手表</a></li>
+                            <li><a href="#">智能外衣</a></li>
 
                         </ul>
                     </li>
@@ -188,17 +235,27 @@
             </div>
             <div class="small-div">
                 <table>
-                    <h3>计划书内容下放？</h3>
+                    <h3>残联要闻</h3>
                     <ul>
-                        <li><a href="">（下面是可以跳转的链接）</a></li>
-                        <li><a href="">xxx文字页面xxx</a></li>
-                        <li><a href="">左边的图片需要改</a></li>
+                        <li><a
+                                href="https://www.bdpf.org.cn/cms68/web1459/subject/n1/n1459/n1544/n3223/n3262/c138249/content.html">2024年市残联组联系统培训班暨年度工作会议召开</a>
+                        </li>
+                        <li><a
+                                href="https://www.cdpf.org.cn/xwzx/clyw2/f7612ea63f1c4339b28b88c3cf145610.htm">全国政协关注支持残疾人事业</a>
+                        </li>
+                        <li><a
+                                href="https://www.cdpf.org.cn/xwzx/clyw2/d0a3b21f124a4fbeb3c776a2a60f890b.htm">国家高度重视残疾人权益保障</a>
+                        </li>
 
-                        <li><a href="">xxxxxxxxxxxxx</a></li>
-                        <li><a href="">xxxxxxxxxxxxx</a></li>
-                        <li><a href="">xxxxxxxxxxxxx</a></li>
-                        <li><a href="">xxxxxxxxxxxxx</a></li>
-                        <li><a href="">xxxxxxxxxxxxx</a></li>
+                        <li><a href="https://www.cdpf.org.cn/xwzx/clyw2/797619954ab349beb90b488079d488c1.htm">不断满足残疾人对美好生活的期待
+                                ——中国残联2023年提案办理情况综述</a></li>
+                        <li><a
+                                href="https://www.cdpf.org.cn/xwzx/clyw2/bff0aa877bcf46f2803a2fbfac5742b7.htm">2024年全国残联宣传文化工作会议召开</a>
+                        </li>
+                        <li><a
+                                href="https://www.cdpf.org.cn/xwzx/clyw2/47b6bf3995144d128aba0dd430cd249c.htm">最高人民法院、中国残疾人联合会联合出台《关于为残疾人提供更加优质诉讼服务的十条意见》</a>
+                        </li>
+
                     </ul>
                 </table>
             </div>
@@ -217,8 +274,8 @@
             <!-- 右边div包含三段话 -->
             <div class="footer-text-container">
                 <p><a href="">免责声明</a> | <a href="">隐私安全</a> | <a href="">帮助信息</a> | <a href="">加入收藏</a></p>
-                <p>版权所有：xxxxxxxxxx</p>
-                <p>联系信箱：xxxxxxxxxx</p>
+                <p>版权所有：BUCEA</p>
+                <p>联系信箱：bucea08010233@outlook.com</p>
             </div>
         </div>
     </footer>
