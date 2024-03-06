@@ -8,5 +8,5 @@ function changeImage() {
     images[imageIndex].classList.add('active');
 }
 
-setInterval(changeImage, 6000); // 图片轮播每6秒更新一次  
+setInterval(changeImage, 5000); // 图片轮播每6秒更新一次  
 changeImage(); // 初始显示第一张图片
