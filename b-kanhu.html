@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="header.css">
+    <link rel="stylesheet" type="text/css" href="footer.css">
+    <title>跳转页</title>
+    <style>
+        a {
+            color: black;
+
+        }
+
+        a:hover {
+            color: blueviolet;
+        }
+
+        a:link {
+            color: black;
+            text-decoration: none;
+        }
+
+
+
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 75vh;
+            width: 98vw;
+            /* 使容器占据整个视窗高度 */
+            /* padding: 20px; */
+            box-sizing: border-box;
+            opacity: 0.9;
+            background-image: url(https://xww.bucea.edu.cn/images/2022-03/156eb0f8df3441e683a54478edf14004.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            /* background-attachment: fixed; */
+            font-size: 1.5vh;
+            white-space: nowrap;
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-around;
+            /* 水平居中 */
+            margin-bottom: 10px;
+            /* 行与行之间的间距 */
+        }
+
+        .box {
+            width: 27vw;
+            /* 格子的宽度 */
+            height: 18vh;
+            /* 格子的高度 */
+            background-color: whitesmoke;
+            /* 背景色 */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 0px solid #ccc;
+            /* 可选的边框，以便更清楚地看到盒子边界 */
+            /* color: aliceblue; */
+            margin-right: 1%;
+            /* font-size: large; */
+        }
+
+        .box-first {
+            width: 81vw;
+            /* 格子的宽度 */
+            height: 18vh;
+            /* 格子的高度 */
+            /* background-color: gray; */
+            /* 背景色 */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 0cap solid #ccc;
+            /* 可选的边框，以便更清楚地看到盒子边界 */
+            text-align: center;
+            /* font-size: large; */
+        }
+
+        /* 第一行只有一个格子，所以不需要额外的样式 */
+        .row:first-child {
+            justify-content: center;
+            /* 确保单个格子水平居中 */
+        }
+
+        /* 
+        main {
+          
+        } */
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="headertop">
+            <div class="header-container">
+                <div class="left-text"><a href="">English</a> | <a href="">服务热线</a></div>
+                <div class="right-text"><a href="">关怀模式</a> | <a href="">开启辅助工具</a></div>
+            </div>
+        </div>
+        <div class="headerimg">
+
+            <img src="logo.jpg" alt="" style=" width: 80px; height: 80px; margin-left: 5px;">
+
+
+            <h2 style="opacity: 1;">让爱来，让碍走————温暖相伴，助力无障碍人生</h2>
+        </div>
+
+        <nav>
+            <div class="navbox">
+                <ul class="navbar">
+
+                    <li><a href="index.html">首页</a>
+                        <ul class="submenu">
+                            <li><a href="#">欢迎访问【让爱来，让碍走————温暖相伴，助力无障碍人生】网站</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">无障通行</a>
+                        <ul class="submenu">
+                            <li><a href="b-tiaozhuan.html">定制出行方案</a></li>
+                            <li><a href="">专业驾驶服务</a></li>
+                            <li><a href="">实时定位追踪</a></li>
+
+                        </ul>
+                    </li>
+
+
+
+                    <li><a href="">全面看护</a>
+                        <ul class="submenu">
+                            <li><a href="#">全天候照护</a></li>
+                            <li><a href="#">个性化护理计划</a></li>
+                            <li><a href="#">智能监测与预警</a></li>
+
+
+
+
+
+                        </ul>
+                    </li>
+                    <li><a href="#">就业协助</a>
+                        <ul class="submenu">
+                            <li><a href="#">职业评估与指导</a></li>
+                            <li><a href="#">技能培训与提升</a></li>
+                            <li><a href="#">就业推荐与跟踪</a></li>
+
+
+                        </ul>
+                    </li>
+                    <li><a href="">医疗援助</a>
+                        <ul class="submenu">
+                            <li><a href="#">优先预约挂号</a></li>
+                            <li><a href="#">专业陪同导诊</a></li>
+                            <li><a href="#">健康管理跟踪</a></li>
+
+
+                        </ul>
+                    </li>
+
+
+                    <li><a href="">应急救助</a>
+                        <ul class="submenu">
+                            <li><a href="">快速响应机制</a></li>
+                            <li><a href="#">专业急救团队</a></li>
+                            <li><a href="#">急救培训与指导</a></li>
+
+
+                        </ul>
+                    </li>
+                    <li><a href="#">无障导航</a>
+                        <ul class="submenu">
+                            <!-- <li><a href="https://map.beijing.gov.cn/">map</a></li> -->
+
+                            <li><a href="#">无障碍设施查询</a></li>
+                            <li><a href="#">语音导航与指令</a></li>
+                            <li><a href="#">实时路况与路线优化</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="b-wenchuang.html">文创产品</a>
+                        <ul class="submenu">
+                            <li><a href="#">智能手表</a></li>
+                            <li><a href="#">智能外衣</a></li>
+
+                        </ul>
+                    </li>
+                    <li><a href="#">加入我们</a>
+                        <ul class="submenu">
+                            <li><a href="b-join.html">志愿者报名单</a></li>
+                            <li><a href="#">关注公众号</a></li>
+
+                        </ul>
+                    </li>
+
+
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="box-first">
+
+                    <h1 style="color: white;">针对特殊人群的个性化护理计划</h1>
+
+
+
+
+
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="box">
+                    <h2><a href="">需求定制护理</a></h2>
+                </div>
+                <div class="box">
+                    <h2><a href="">情感支持护理</a></h2>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="box">
+                    <h2><a href="">科技赋能护理</a></h2>
+                </div>
+                <div class="box">
+                    <h2><a href="">环境适应护理</a></h2>
+                </div>
+            </div>
+            <!-- <div class="row">
+            <div class="box-first">
+                <a href="index.html">
+                    <h2>点击返回主页</h2>
+                </a>
+
+            </div>
+
+        </div> -->
+        </div>
+    </main>
+
+    <footer class="footer-outer">
+        <div class="footer-inner">
+            <!-- 左边div包含图片 -->
+            <div class="footer-image-container">
+                <img src="https://pic4.zhimg.com/80/v2-da04fd37fa61cb3bb1ec51fcdc2e6b4a_qhd.jpg" alt="Footer Image"
+                    class="footer-image">
+            </div>
+
+            <!-- 右边div包含三段话 -->
+            <div class="footer-text-container">
+                <p><a href="">免责声明</a> | <a href="">隐私安全</a> | <a href="">帮助信息</a> | <a href="">加入收藏</a></p>
+                <p>版权所有：BUCEA</p>
+                <p>联系信箱：bucea08010233@outlook.com</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
