@@ -8,6 +8,7 @@
      /* 水平居中 */
      align-items: center;
      /* 垂直居中 */
+     height: 10vh;
  }
 
  /* 设置内部小div的样式 */
