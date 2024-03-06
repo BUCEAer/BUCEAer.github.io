@@ -13,7 +13,7 @@
 }
 
 .quote {
-    font-size: 24px;
+    font-size: 15px;
     color: #333;
     margin: 0;
     /* 移除默认的margin */
@@ -23,7 +23,7 @@
 }
 
 .quote a {
-    color: #333;
+    color: purple;
     text-decoration: none;
     /* 移除下划线 */
 }
